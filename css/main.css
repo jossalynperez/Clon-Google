@@ -239,7 +239,7 @@ footer ul{
 }
 
 footer a{
-    color: black;
+    color: rgb(102, 98, 98);
     font-size: 14px;
 }
 
@@ -248,16 +248,16 @@ footer .foot-section{
     
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    margin: 20px;
-
+    
+    margin-left: 20px;
+    bottom: 2px;
     
 }
 
 
 footer .foot-section-left{
-    margin: 10px;
-    padding: 5px;
+    margin: 5px;
+    padding: 5px 10px;
     width: 300px;
     height: 10px;
 
@@ -280,7 +280,32 @@ nav .left{
     justify-content: center;
     /* align-items: centrado verticalmente */
     align-items: center;
-    margin-right: 20px;
+    margin-left: 100px;
+    
+    
+    }
+
+    nav .left .about{
+        margin: 15px;
+        white-space: nowrap;
+    
+    }
+    
+    nav .left .publi{
+    
+        margin: 15px;
+    }
+    
+    nav .left .bussines{
+    
+        margin: 20px;
+    }
+    
+    nav .left .busq{
+        margin: 15px;
+        display: flex;
+        white-space: nowrap;
+        
     }
 
 footer .foot-section-right{
@@ -301,6 +326,20 @@ nav .right{
     /* align-items: centrado verticalmente */
     align-items: center;
     margin-left: 170%;
-   }
+}
 
+nav .right .priv{
+    margin: 15px;
+
+}
+
+nav .right .condi{
+    margin: 15px;
+
+}
+
+nav .right .pref{
+    margin-left: 15px;
+
+}
 
