@@ -5,6 +5,7 @@ body{
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
+    
 
 }
 
@@ -26,12 +27,13 @@ header nav{
 header nav .nav-right-section{
     width: 250px;
     height: auto;
-    /* List-style: es para elominar los puntitos */
+    /* List-style: es para eliminar los puntitos */
     list-style: none;
     display: flex;
     justify-content: center;
     /* align-items: centrado verticalmente */
     align-items: center;
+    
 }
 
 a{
@@ -54,7 +56,7 @@ nav .nav-right-section .menu{
     height: 20px;
     /* para que no se repitan las imagenes */
     background-repeat: no-repeat;
-    
+
 
 }
 
@@ -69,5 +71,236 @@ nav .nav-right-section img{
 /* ------------------ */
 
 main{
+    /* Agregar espacio entre header y main */
+    margin-top: 150px;
+    
+    text-align: center;
+/* Esto lo hice porque no quedo perfectamente centrado */
+    margin-right: 20px;
+}
+
+main .main-logo{
+    width: 300px;
+    /* Centar absolutamente gracias a los márgenes automáticos */
+    margin: 0 auto;
+}
+
+main .main-logo img{
+    height: 120px;
+}
+
+main .main-input{
+    width: 530px;
+    /* centrar en la pagina */
+    margin: 0 auto;
+}
+
+main .main-input-container{
+    border: 1px solid rgb(156, 156, 167) ;
+    border-radius: 30px;
+    width: 530px;
     
 }
+
+main .main-input input{
+    height: 30px;
+    border: none;
+    /* quitar el borde cuando esta activo el input */
+    outline: none;
+    width: 150px;
+
+}
+
+main .main-input-container:hover{
+    
+    box-shadow: 0px 0px 2px 0px black;
+    
+}
+
+main .main-input .serch-icon{
+    background-image: url(https://seekicon.com/free-icon-download/search_20.svg);
+    background-size: contain;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+
+}
+
+main .main-input .micro-icon{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    background-size: contain;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    margin-left: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+main .main-input .cam-icon{
+    background-image: url(https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg);
+    background-size: contain;
+    padding-right: 10%;
+    background-repeat: no-repeat;
+}
+
+main .main-button{
+    
+    padding: 30px 0px 0px;
+    margin: 0 auto;
+    width: 530px;
+
+    
+
+}
+
+button{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(82, 77, 77);
+    padding: auto;
+    cursor: pointer;
+
+}
+
+main .main-button div{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+
+}
+
+
+main .main-button .buscar{
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+
+}
+
+.main-button {
+    display: flex;
+    justify-content: center;
+    margin-right: 500px;
+    
+}
+
+main .main-button .suerte{
+
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none; 
+    border: none;
+}
+
+main .ofrecido{
+    margin-top: 700px;
+    background-color: rgb(167, 167, 38);
+}
+
+
+footer{
+    background-color: #f8f9fa;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: rgba(34, 31, 31, 0.5);
+    font-size: 15px;
+    
+    }
+
+footer ul{
+    padding-left: 2px;
+    padding-right: 2px;
+    display: flex;
+    align-items: center;
+}
+
+footer a{
+    color: black;
+    font-size: 14px;
+}
+
+
+footer .foot-section{
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px;
+
+    
+}
+
+
+footer .foot-section-left{
+    margin: 10px;
+    padding: 5px;
+    width: 300px;
+    height: 10px;
+
+}
+
+footer nav .right{
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+
+nav .left{
+
+    width: 100%;
+    height: 10%;
+    /* List-style: es para eliminar los puntitos */
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    /* align-items: centrado verticalmente */
+    align-items: center;
+    margin-right: 20px;
+    }
+
+footer .foot-section-right{
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .right{
+    width: 250px;
+    height: auto;
+    /* List-style: es para eliminar los puntitos */
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: centrado verticalmente */
+    align-items: center;
+    margin-left: 170%;
+   }
+
+
